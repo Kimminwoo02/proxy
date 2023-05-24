@@ -23,7 +23,7 @@ public class BasicTest {
 
     @Slf4j
     @Configuration
-    static class BasicConfig(){
+    static class BasicConfig{
         @Bean(name = "beanA")
         public A a(){
             return new A();
