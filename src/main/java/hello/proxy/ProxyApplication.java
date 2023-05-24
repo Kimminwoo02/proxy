@@ -22,4 +22,6 @@ public class ProxyApplication {
 	public LogTrace logtrace(){
 		return new ThreadLocalLogTrace();
 	}
+
+
 }
